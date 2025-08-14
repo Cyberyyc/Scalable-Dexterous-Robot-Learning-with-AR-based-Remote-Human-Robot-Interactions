@@ -1,0 +1,15 @@
+data/
+experiments/
+checkpoints/
+*.pdf
+*.pkl
+*.pth
+*.pt
+*.zip
+*.h5
+*.lmdb
+.env
+key
+__pycache__/
+.pytest_cache/
+.venv/

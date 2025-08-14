@@ -1,0 +1,28 @@
+{
+  "observation_dim": 20,
+  "action_dim": 8,
+  "actor_hidden": [
+    256,
+    256
+  ],
+  "critic_hidden": [
+    256,
+    256
+  ],
+  "projector_hidden": [
+    256,
+    256
+  ],
+  "projector_output": 128,
+  "gamma": 0.98,
+  "learning_rate": 0.00073,
+  "batch_size": 512,
+  "contrastive_temperature": 0.1,
+  "contrastive_weight": 0.5,
+  "expert_trajectories": 15,
+  "seeds": [
+    42,
+    97,
+    215
+  ]
+}
